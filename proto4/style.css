@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+  }
+
+  canvas {
+    display: block;
+
+  }
+  #buttons {
+    display:flex;
+    flex-flow: row wrap;
+    height: 400px;
+    width: 80px;
+    /* padding: 10px; */
+    /* border: 1px solid lightgray; */
+    border-radius: 10px;
+    /* background-color:SEASHELL; */
+    position:relative;
+    align-items: stretch;
+    justify-content: center;
+  }
